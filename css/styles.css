@@ -1,0 +1,32 @@
+body { /* STYLES FOR THE BODY OF THE DOCUMENT */
+    font-family: Arial, sans-serif; /* SETS THE FONT FAMILY TO ARIAL WITH A FALLBACK TO SANS-SERIF */
+    background-color: #ebe76bb5; /* SETS THE BACKGROUND COLOR OF THE BODY */
+    text-align: center; /* CENTERS THE TEXT WITHIN THE BODY */
+}
+
+h1 { /* STYLES FOR THE MAIN HEADING (H1) */
+    color: #2c3e50; /* SETS THE TEXT COLOR OF THE HEADING */
+}
+
+button { /* STYLES FOR BUTTON ELEMENTS */
+    background-color: #db7134; /* SETS THE BACKGROUND COLOR OF THE BUTTON */
+    color: white; /* SETS THE TEXT COLOR OF THE BUTTON TO WHITE */
+    border: none; /* REMOVES THE DEFAULT BORDER OF THE BUTTON */
+    padding: 10px 20px; /* ADDS PADDING INSIDE THE BUTTON (10px TOP AND BOTTOM, 20px LEFT AND RIGHT) */
+    margin: 10px; /* ADDS MARGIN AROUND THE BUTTON */
+    cursor: pointer; /* CHANGES THE CURSOR TO A POINTER WHEN HOVERING OVER THE BUTTON */
+    border-radius: 5px; /* ROUNDS THE CORNERS OF THE BUTTON */
+}
+
+button:hover { /* STYLES FOR BUTTONS WHEN HOVERED OVER */
+    background-color: #b96a29; /* CHANGES THE BACKGROUND COLOR OF THE BUTTON ON HOVER */
+}
+
+section { /* STYLES FOR SECTION ELEMENTS */
+    margin: 20px; /* ADDS MARGIN AROUND THE SECTION */
+}
+
+p { /* STYLES FOR PARAGRAPH ELEMENTS */
+    font-size: 1.2em; /* SETS THE FONT SIZE OF THE PARAGRAPH TEXT */
+    color: #34495e; /* SETS THE TEXT COLOR OF THE PARAGRAPH */
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html> <!-- DECLARES THE DOCUMENT TYPE AND VERSION OF HTML BEING USED -->
+<html lang="en"> <!-- OPENS THE HTML DOCUMENT AND SPECIFIES THE LANGUAGE AS ENGLISH -->
+
+<head>
+    <meta charset="utf-8" /> <!-- SETS THE CHARACTER ENCODING FOR THE DOCUMENT TO UTF-8 -->
+    <title>Assignment 1 | COMP1073 Client-Side JavaScript</title> <!-- SETS THE TITLE OF THE WEBPAGE, WHICH APPEARS IN THE BROWSER TAB -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <!-- ENSURES PROPER SCALING ON MOBILE DEVICES -->
+    <link rel="stylesheet" href="css/styles.css" /> <!-- LINKS TO THE EXTERNAL CSS FILE FOR STYLING THE WEBPAGE -->
+</head>
+
+<body>
+    <h1>See-N-Say Storymaker</h1> <!-- MAIN HEADING OF THE WEBPAGE -->
+    <p id="studentId"></p> <!-- PARAGRAPH TO DISPLAY THE STUDENT ID, INITIALLY EMPTY -->
+
+    <section> <!-- SECTION FOR CREATING THE STORY -->
+        <h2>Create Your Story</h2> <!-- SUBHEADING FOR THE STORY CREATION SECTION -->
+        <button id="noun1">NOUN 1</button> <!-- BUTTON TO SELECT THE FIRST NOUN (OR CHARACTER) -->
+        <p id="choosenNoun1"></p> <!-- PARAGRAPH TO DISPLAY THE CHOSEN FIRST NOUN -->
+        
+        <button id="verb">VERB</button> <!-- BUTTON TO SELECT A VERB -->
+        <p id="choosenVerb"></p> <!-- PARAGRAPH TO DISPLAY THE CHOSEN VERB -->
+        
+        <button id="adjective">ADJECTIVE</button> <!-- BUTTON TO SELECT AN ADJECTIVE -->
+        <p id="choosenAdjective"></p> <!-- PARAGRAPH TO DISPLAY THE CHOSEN ADJECTIVE -->
+        
+        <button id="noun2">NOUN 2</button> <!-- BUTTON TO SELECT THE SECOND NOUN (OR CHARACTER) -->
+        <p id="choosenNoun2"></p> <!-- PARAGRAPH TO DISPLAY THE CHOSEN SECOND NOUN -->
+        
+        <button id="setting">SETTING</button> <!-- BUTTON TO SELECT A SETTING -->
+        <p id="choosenSetting"></p> <!-- PARAGRAPH TO DISPLAY THE CHOSEN SETTING -->
+    </section>
+
+    <section> <!-- SECTION FOR DISPLAYING THE STORY -->
+        <h2>See Your Story</h2> <!-- SUBHEADING FOR THE STORY DISPLAY SECTION -->
+        <button id="playback">SHOW STORY</button> <!-- BUTTON TO DISPLAY THE CONSTRUCTED STORY -->
+        <button id="random">RANDOM STORY</button> <!-- BUTTON TO GENERATE A RANDOM STORY -->
+        <button id="reset">RESET</button> <!-- BUTTON TO RESET THE SELECTIONS AND CLEAR THE STORY -->
+        <p id="story"></p> <!-- PARAGRAPH TO DISPLAY THE FINAL CONSTRUCTED STORY -->
+    </section>
+
+    <script src="js/storymaker.js"></script> <!-- LINKS TO THE EXTERNAL JAVASCRIPT FILE THAT CONTAINS THE FUNCTIONALITY FOR THE STORYMAKER -->
+</body>
+
+</html>
